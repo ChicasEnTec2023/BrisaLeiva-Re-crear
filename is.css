@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: rgb(150, 237, 137);
+    
+}
+
+.header{
+    background-color: rgb(22, 128, 57);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+footer{
+    background-color:rgba(22, 128, 57) ;
+}
+
+.iniciosesion{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 500px;
+    position: relative;
+}
+
+.container .title::before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0px 12px 0px;
+}
+
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: rgb(12, 139, 76);
+}
+
+form .button{
+height: 45px;
+margin: 45px 0;
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    background: rgb(4, 77, 41);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+
+
+.fot{
+    font-family: 'Londrina Solid', cursive;
+    color: rgb(5, 29, 5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h4 {
+    font-family: 'Londrina Solid', cursive;
+    color: green;
+}
